@@ -11,3 +11,17 @@ return y;
 }
 
 console.log(shortestWord('the quick brown fox over the lazy dog'));
+
+
+ function min(array){
+var x=array[0];
+for(var i=0;i<array.length;i++)
+{
+	if (x>array[i]){
+		x=array[i];
+	}
+
+} 
+
+return x;
+}
